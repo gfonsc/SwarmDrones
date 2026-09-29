@@ -1,0 +1,22 @@
+# MATLAB autosave, workspace, and crash files
+*.asv
+*.m~
+matlab_workspace
+matlab_crash_dump.*
+java.log.*
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated simulation results and figures (retain source, reports, and tables)
+/examples/results/
+/branch/**/results/
+/branch/**/figures/
+/branch/section6_results/data/
+
+# Verified duplicate CSVs; loaders use database/idsia_benchmark/*.csv
+/database/idsia_benchmark/data/
+
+# Training CSV/MAT files in database/ are intentionally versioned.

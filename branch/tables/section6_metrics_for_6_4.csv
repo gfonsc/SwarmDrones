@@ -1,0 +1,1 @@
+scenario,controller,RMSE_x,RMSE_y,RMSE_z,RMSE_total,MAE_x,MAE_y,MAE_z,max_error_total,final_error_total,control_energy_total,control_variation_total,min_distance_to_obstacle,min_h,num_safety_violations,max_violation_depth,mean_solver_time,max_solver_time,feasibility_rate,notes

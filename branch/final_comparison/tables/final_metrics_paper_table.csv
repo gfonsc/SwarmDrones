@@ -1,0 +1,5 @@
+scenario,controller,RMSE_total,max_error_total,control_energy_total,min_h,num_safety_violations,mean_solver_time,feasibility_rate,notes
+Scenario A - no obstacle,DeePC,0.0458501762315568,0.162656838039336,4.48362162700192,NaN,NaN,0.0549105088095238,1,Nominal setpoint reference; labyrinth walls plotted; cylindrical obstacles inactive.
+Scenario A - no obstacle,MPC,0.0630488771323369,0.101611002590643,6.64856927197364,NaN,NaN,0.00109828166666667,1,Nominal setpoint reference; labyrinth walls plotted; cylindrical obstacles inactive.
+Scenario B - obstacle,DeePC,0.0567620939931923,0.231375522515052,5.54708024905416,-0.0184958728348107,3,0.0584369971428571,1,Original labyrinth training reference; labyrinth walls plotted; cylindrical obstacles active with soft linearized constraints.
+Scenario B - obstacle,MPC,0.0678559315822553,0.142244478951976,7.071304859471,0.0101071617074552,0,0.00138378333333333,1,Original labyrinth training reference; labyrinth walls plotted; cylindrical obstacles active with soft linearized constraints.

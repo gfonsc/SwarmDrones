@@ -1,0 +1,9 @@
+figure_name,status,main_issue,can_be_used_in_article,required_fix,recommended_caption_or_warning
+2D no-obstacle trajectory,usable_as_is,None,Yes,None,None
+2D obstacle trajectory,usable_as_is,None,Yes,None,None
+3D obstacle trajectory,usable_as_is,None,Yes,None,None
+x y z tracking comparison,usable_with_caveats,Time vectors misaligned,Yes,None,Caption must state that MPC finishes trajectory 2.6s faster.
+Euler angle comparison,invalid_do_not_use,Data missing or NaN,No,Cannot fix,Do not use
+motor effort comparison,invalid_do_not_use,Incompatible input types,No,Cannot fix,Do not use
+safety margin,usable_as_is,None,Yes,None,None
+state machine,usable_as_is,None,Yes,None,None

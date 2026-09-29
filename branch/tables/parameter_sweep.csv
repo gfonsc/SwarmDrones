@@ -1,0 +1,8 @@
+variant,include_walls,include_obstacles,rho_obs,activation_distance,max_constraints_per_step,iterative,max_iter,rmse_total,min_h,mean_slack,final_error,feasibility_rate,notes
+soft_default_saved,false,true,100000,1.0,2,false,1,0.268083998921934,-0.0983631553180002,3.02562465263945e-05,0.275037744981163,1.0,Final saved soft branch configuration
+iterative_default_saved,false,true,100000,1.0,2,true,4,0.268104627295815,-0.0984890482462449,2.99639869060016e-05,0.274840269072269,1.0,Final saved iterative branch configuration
+trial_wall_obstacle_a,true,true,100000,1.0,4,false,1,0.266116,-0.127167,5.6e-05,0.254063,1.0,Stronger mixed wall-and-obstacle constraints; obstacle-4 margin degraded
+trial_wall_obstacle_b,true,true,1000000,1.0,4,false,1,0.265552,-0.126964,1.7e-05,0.253987,1.0,Very strong mixed constraints; obstacle-4 margin still degraded
+trial_obstacle_only_a,false,true,100000,1.0,2,false,1,0.268084,-0.098363,3.0e-05,0.275038,1.0,Chosen as saved soft default
+trial_obstacle_only_b,false,true,1000000,1.0,2,false,1,0.267979,-0.098564,1.0e-05,0.274000,1.0,Higher rho without clear gain over chosen default
+trial_iterative_obstacle_only,false,true,100000,1.0,2,true,4,0.268105,-0.098489,3.0e-05,0.274840,1.0,Chosen as saved iterative default

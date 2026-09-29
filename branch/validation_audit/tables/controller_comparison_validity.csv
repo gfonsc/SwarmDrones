@@ -1,0 +1,17 @@
+quantity,deepc_available,mpc_available,same_units,same_time_base,directly_comparable,issue,recommendation
+x,Yes,Yes,Yes,No,Yes,Differing sequence lengths,Plot spatially or plot against independent time axes
+y,Yes,Yes,Yes,No,Yes,Differing sequence lengths,Plot spatially or plot against independent time axes
+z,Yes,Yes,Yes,No,Yes,Differing sequence lengths,Plot spatially or plot against independent time axes
+2D trajectory,Yes,Yes,Yes,N/A,Yes,None,Usable as is
+3D trajectory,Yes,Yes,Yes,N/A,Yes,None,Usable as is
+motor 1,Yes,Yes,No,No,No,MPC uses virtual controls,Do not plot on same axis
+motor 2,Yes,Yes,No,No,No,MPC uses virtual controls,Do not plot on same axis
+motor 3,Yes,Yes,No,No,No,MPC uses virtual controls,Do not plot on same axis
+motor 4,Yes,Yes,No,No,No,MPC 4th channel is yaw rate (near zero),Do not plot on same axis
+control effort,Yes,Yes,No,No,No,Different physical meaning,Evaluate separately if at all
+roll,No,NaN,N/A,N/A,No,Data is missing or NaN,Do not use
+pitch,No,NaN,N/A,N/A,No,Data is missing or NaN,Do not use
+yaw,No,NaN,N/A,N/A,No,Data is missing or NaN,Do not use
+safety margin,Yes,Yes,Yes,No,Yes,None,Plot against independent time axes
+tracking error,Yes,Yes,Yes,No,No,Time vectors misaligned,Compute spatially or resample before comparing
+solver time,Yes,Yes,Yes,No,Yes,None,Use mean metrics in text

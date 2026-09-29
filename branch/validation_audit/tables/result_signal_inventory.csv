@@ -1,0 +1,6 @@
+result_file,controller,scenario,time_variable,num_samples,time_start,time_end,reference_available,trajectory_available,prediction_available,state_available,input_available,motor_channels_available,euler_available,safety_margin_available,obstacle_available,notes
+baseline_results.mat,DeePC,baseline_results.mat,1,240,0.000000,23.900000,1,1,1,0,1,4,0,0,1,
+soft_obstacle_results.mat,DeePC,soft_obstacle_results.mat,1,240,0.000000,23.900000,1,1,1,0,1,4,0,0,1,
+iterative_obstacle_results.mat,DeePC,iterative_obstacle_results.mat,1,240,0.000000,23.900000,1,1,1,0,1,4,0,0,1,
+mpc_baseline_results.mat,MPC,mpc_baseline_results.mat,1,214,0.000000,21.300000,1,1,0,1,1,4,1,1,1,
+mpc_obstacle_results.mat,MPC,mpc_obstacle_results.mat,1,214,0.000000,21.300000,1,1,0,1,1,4,1,1,1,
